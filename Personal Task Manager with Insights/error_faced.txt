@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "d:\Ahnaf Doc\Python H_W\unit_2_class_11\Project_2\main.py", line 6, in <module>
-    from calculator import advanced_calculator
-ImportError: cannot import name 'advanced_calculator' from 'calculator' (d:\Ahnaf Doc\Python H_W\unit_2_class_11\Project_2\calculator.py)
