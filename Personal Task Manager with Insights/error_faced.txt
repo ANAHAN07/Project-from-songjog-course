@@ -1,0 +1,104 @@
+Traceback (most recent call last):
+  File "d:\Ahnaf Doc\Python H_W\unit_2_class_11\Project_2\main.py", line 6, in <module>
+    from calculator import advanced_calculator
+ImportError: cannot import name 'advanced_calculator' from 'calculator' (d:\Ahnaf Doc\Python H_W\unit_2_class_11\Project_2\calculator.py)
+
+
+
+
+Traceback (most recent call last):
+  File "d:\Ahnaf Doc\Python H_W\unit_2_class_11\Project_2\main.py", line 46, in <module>
+    main_menu()
+  File "d:\Ahnaf Doc\Python H_W\unit_2_class_11\Project_2\main.py", line 34, in main_menu
+    advanced_calculator()
+    ^^^^^^^^^^^^^^^^^^^
+NameError: name 'advanced_calculator' is not defined
+
+
+
+Traceback (most recent call last):
+  File "d:\Ahnaf Doc\Python H_W\unit_2_class_11\Project_2\main.py", line 63, in <module>
+    username = login()
+               ^^^^^^^
+  File "d:\Ahnaf Doc\Python H_W\unit_2_class_11\Project_2\login.py", line 80, in login
+    users = load_users()
+            ^^^^^^^^^^^^
+  File "d:\Ahnaf Doc\Python H_W\unit_2_class_11\Project_2\login.py", line 72, in load_users
+    with open(LOGIN_FILE, "r") as file:
+         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'users.json'
+
+
+
+Traceback (most recent call last):
+  File "d:\Ahnaf Doc\Python H_W\unit_2_class_11\Project_2\main.py", line 63, in <module>
+    username = login()
+               ^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'users.json'
+
+
+Traceback (most recent call last):
+  File "d:\Ahnaf Doc\Python H_W\unit_2_class_11\Project_2\main.py", line 63, in <module>
+    username = login()
+               ^^^^^^^
+  File "d:\Ahnaf Doc\Python H_W\unit_2_class_11\Project_2\login.py", line 47, in login
+    users[username] = password
+    ~~~~~^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+
+
+
+
+Traceback (most recent call last):
+  File "d:\Ahnaf Doc\Python H_W\unit_2_class_11\Project_2\main.py", line 63, in <module>
+    username = login()
+               ^^^^^^^
+  File "d:\Ahnaf Doc\Python H_W\unit_2_class_11\Project_2\login.py", line 51, in login
+    users[username] = password
+    ~~~~~^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+
+
+
+Traceback (most recent call last):
+  File "d:\Ahnaf Doc\Python H_W\unit_2_class_11\Project_2\main.py", line 5, in <module>
+    from update_task import update_tasks
+  File "d:\Ahnaf Doc\Python H_W\unit_2_class_11\Project_2\update_task.py", line 1, in <module>
+    from utils import save_tasks
+ModuleNotFoundError: No module named 'utils'
+
+
+
+
+
+Traceback (most recent call last):
+  File "d:\Ahnaf Doc\Python H_W\unit_2_class_11\Project_2\main.py", line 65, in <module>
+    main_menu(username)
+  File "d:\Ahnaf Doc\Python H_W\unit_2_class_11\Project_2\main.py", line 40, in main_menu
+    add_task(tasks)
+  File "d:\Ahnaf Doc\Python H_W\unit_2_class_11\Project_2\add_task.py", line 24, in add_task
+    add_task()
+TypeError: add_task() missing 1 required positional argument: 'tasks'
+
+
+
+Traceback (most recent call last):
+  File "d:\Ahnaf Doc\Python H_W\unit_2_class_11\Project_2\main.py", line 65, in <module>
+    main_menu(username)
+  File "d:\Ahnaf Doc\Python H_W\unit_2_class_11\Project_2\main.py", line 40, in main_menu
+    add_task(tasks)
+  File "d:\Ahnaf Doc\Python H_W\unit_2_class_11\Project_2\add_task.py", line 24, in add_task
+    add_task()
+TypeError: add_task() missing 1 required positional argument: 'tasks'
+
+
+
+Traceback (most recent call last):
+  File "d:\Ahnaf Doc\Python H_W\unit_2_class_11\Project_2\main.py", line 65, in <module>
+    main_menu(username)
+  File "d:\Ahnaf Doc\Python H_W\unit_2_class_11\Project_2\main.py", line 46, in main_menu
+    delete_task(tasks)
+  File "d:\Ahnaf Doc\Python H_W\unit_2_class_11\Project_2\delete_task.py", line 11, in delete_task
+    task_num = int(input("\nEnter the task number to delete: ")) - 1
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'exit'
