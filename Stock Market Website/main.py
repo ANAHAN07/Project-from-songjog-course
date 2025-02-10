@@ -54,6 +54,4 @@ if st.session_state['logged_in']:
         from pages.contact_author import contact_box
         contact_box()
 
-
-
 st.write("Copyright © 2025 [Ahnaf Mahmud Towseem Ahan](https://www.facebook.com/ahnafNahan). [All rights reserved](https://github.com/ANAHAN07/Project-from-songjog-course/blob/main/Stock%20Market%20Website/LICENSE).")      # LICENSE AND OWENERSHIP
