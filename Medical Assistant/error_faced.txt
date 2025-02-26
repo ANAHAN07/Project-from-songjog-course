@@ -1,0 +1,30 @@
+ImportError: cannot import name 'symptom_checker' from 'symptom_checker' (D:\GITHUB Uploads\ClassWorks-of-SongJog\Python H_W\unit_4_class_5\Final_Project_Show\symptom_checker.py)
+Traceback:
+File "D:\GITHUB Uploads\ClassWorks-of-SongJog\Python H_W\unit_4_class_5\Final_Project_Show\main.py", line 2, in <module>
+    from symptom_checker import symptom_checker
+
+
+
+File "D:\GITHUB Uploads\ClassWorks-of-SongJog\Python H_W\unit_4_class_5\Final_Project_Show\main.py", line 25, in <module>
+    import pharmacy
+File "D:\GITHUB Uploads\ClassWorks-of-SongJog\Python H_W\unit_4_class_5\Final_Project_Show\pharmacy.py", line 77, in <module>
+    bill_medicine_name = st.text_input("Medicine Name")
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+File "C:\Users\USER\anaconda3\Lib\site-packages\streamlit\runtime\metrics_util.py", line 410, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+File "C:\Users\USER\anaconda3\Lib\site-packages\streamlit\elements\widgets\text_widgets.py", line 236, in text_input
+    return self._text_input(
+           ^^^^^^^^^^^^^^^^^
+File "C:\Users\USER\anaconda3\Lib\site-packages\streamlit\elements\widgets\text_widgets.py", line 284, in _text_input
+    element_id = compute_and_register_element_id(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+File "C:\Users\USER\anaconda3\Lib\site-packages\streamlit\elements\lib\utils.py", line 226, in compute_and_register_element_id
+    _register_element_id(ctx, element_type, element_id)
+File "C:\Users\USER\anaconda3\Lib\site-packages\streamlit\elements\lib\utils.py", line 132, in _register_element_id
+    raise StreamlitDuplicateElementId(element_type)
+
+
+
+File "D:\GITHUB Uploads\ClassWorks-of-SongJog\Python H_W\unit_4_class_5\Final_Project_Show\main.py", line 2, in <module>
+    from symptom_checker import symptom_checker
